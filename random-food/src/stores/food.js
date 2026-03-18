@@ -7,9 +7,9 @@ import { collection, getDocs, addDoc, deleteDoc,
 import { db } from '@/firebase/config'
 import { useAuthStore } from './auth'
 
-// 🔧 ใส่ ImgBB API Key ของคุณที่นี่
+//  ใส่ ImgBB API Key ของคุณที่นี่
 // สมัครฟรีที่ https://imgbb.com แล้วขอ key ที่ https://api.imgbb.com
-const IMGBB_API_KEY = 'b32b937c485843c03e474c9a6f77433f'
+const IMGBB_API_KEY = 
 
 // อัปโหลดรูปขึ้น ImgBB → คืน URL
 async function uploadToImgBB(imageFile) {
