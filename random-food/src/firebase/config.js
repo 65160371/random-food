@@ -9,13 +9,14 @@ import { getAuth, browserLocalPersistence, setPersistence } from 'firebase/auth'
 
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-}
+  apiKey: "AIzaSyDY6YosE1ejNVRDMWEfi0EUTxyCP4SlInc",
+  authDomain: "random-food-2503a.firebaseapp.com",
+  projectId: "random-food-2503a",
+  storageBucket: "random-food-2503a.firebasestorage.app",
+  messagingSenderId: "1022033621588",
+  appId: "1:1022033621588:web:8de956a19ac0232b9533c1",
+  measurementId: "G-FTYWTV67ZT"
+};
 
 const app = initializeApp(firebaseConfig)
 

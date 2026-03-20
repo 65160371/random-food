@@ -9,7 +9,7 @@ import { useAuthStore } from './auth'
 
 //  ใส่ ImgBB API Key ของคุณที่นี่
 // สมัครฟรีที่ https://imgbb.com แล้วขอ key ที่ https://api.imgbb.com
-const IMGBB_API_KEY = 
+const IMGBB_API_KEY = 'dd28e00a4318745f67fe50956e0df177'
 
 // อัปโหลดรูปขึ้น ImgBB → คืน URL
 async function uploadToImgBB(imageFile) {

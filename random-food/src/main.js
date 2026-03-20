@@ -21,3 +21,4 @@ const authStore = useAuthStore()
 authStore.init()
 
 app.mount('#app')
+
